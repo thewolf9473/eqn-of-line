@@ -1,0 +1,7 @@
+print('input the coordinates:  ')
+x1,y1=map(float,input("x1,y1=").split(','))
+x2,y2=map(float,input("x2,y2=").split(','))
+m=(y2-y1)/(x2-x1)
+c=y2-(m*x2)
+print("your eq of line is:")
+print('y =',m,'x +',c)
